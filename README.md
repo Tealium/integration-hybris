@@ -1,4 +1,4 @@
-Hybris
-======
+HybrisIntegration
+=================
 
 Hybris Integration for TealiumIQ
