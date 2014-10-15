@@ -13,6 +13,8 @@
  */
 package com.tealium.addon.constants;
 
+import com.tealium.addon.constants.GeneratedTealiumAddonConstants;
+
 /**
  * Global class for all TealiumAddon constants. You can add global constants for your extension into this class.
  */

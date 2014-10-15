@@ -9,7 +9,7 @@
  * Information and shall use it only in accordance with the terms of the
  * license agreement you entered into with hybris.
  *
- *  
+ *
  */
 package com.tealium.addon.jalo;
 
@@ -50,8 +50,8 @@ public class TealiumAddonManager extends GeneratedTealiumAddonManager
 	 */
 	public static TealiumAddonManager getInstance()
 	{
-		return (TealiumAddonManager) Registry.getCurrentTenant().getJaloConnection().getExtensionManager().getExtension(
-				TealiumAddonConstants.EXTENSIONNAME);
+		return (TealiumAddonManager) Registry.getCurrentTenant().getJaloConnection().getExtensionManager()
+				.getExtension(TealiumAddonConstants.EXTENSIONNAME);
 	}
 
 
