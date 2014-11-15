@@ -11,9 +11,9 @@
 
 <%
 // Edit these to your TealiumIQ account settings
-String accountString = "tealium";
-String profileString = "services.patrick";
-String targetString = "dev";
+String accountString = "ACCOUNT";
+String profileString = "PROFILE";
+String targetString = "TARGET";
 
 // Do not edit below this line **********************************************************************
 ProductData productData = (ProductData) request.getAttribute("product");
