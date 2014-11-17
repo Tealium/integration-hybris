@@ -14,8 +14,8 @@ This is a simple setup guide to integrate teh tealiumIQ addon for Hybris. To set
  - ant addoninstall -Daddonnames="tealiumIQ" -DaddonStorefront.yacceleratorstorefront="yacceleratorstorefront"
 5. Update: 
  - ${HYBRIS_BIN}/ext-template/yacceleratorstorefront/web/webroot/WEB-INF/tags/desktop/template/master.tag by adding:
-   1. <%@ taglib prefix="tealiumIQ" tagdir="/WEB-INF/tags/addons/tealiumIQ/shared/analytics" %> at the top of the file
-    2. <tealiumIQ:tealium/> after the \<body\> tag
+   1. \<%@ taglib prefix="tealiumIQ" tagdir="/WEB-INF/tags/addons/tealiumIQ/shared/analytics" %\> at the top of the file
+    2. \<tealiumIQ:tealium/\> after the \<body\> tag
  - ${HYBRIS_BIN}/ext-template/yacceleratorstorefront/web/webroot/WEB-INF/tags/addons/tealiumIQ/shared/analytics/data.tag by changing:
    1. accountString, profileString, and targetString to your tealiumIQ specific information.
 6. Recompile and restart hybris.
