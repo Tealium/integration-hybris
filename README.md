@@ -3,7 +3,7 @@ HybrisIntegration
 
 Hybris Integration for TealiumIQ
 
-This is a simple setup guide to integrate teh tealiumIQ addon for Hybris. To setup tealiumIQ to work with your vendors after successful install, please contact your account manager.
+This is a simple setup guide to integrate the tealiumIQ addon for Hybris. To setup tealiumIQ to work with your vendors after successful install, please contact your account manager.
 
 1. Prerequisites
  - A Tealium IQ account.
