@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Nov 14, 2014 1:25:43 AM                     ---
+ * --- Generated at Nov 20, 2014 3:35:53 AM                     ---
  * ----------------------------------------------------------------
  */
 package com.tealium.addon.constants;
