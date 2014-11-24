@@ -8,7 +8,7 @@ This is a simple setup guide to integrate the tealiumIQ addon for Hybris. To set
 1. Prerequisites
  - A Tealium IQ account.
  - hybris v5.2+ extracted and built, including the Commerce Accelerator.
-2. Place the "tealiumIQ" directory into ${HYBRIS_BIN}/custom. This directory is in the /hybris/bin/custom/ folder.
+2. Place the "tealiumIQ" directory into ${HYBRIS_BIN}/custom. This directory is in the /hybris/bin/custom/ folder in this repo.
 3. Add \<extension dir="${HYBRIS_BIN}/custom/tealiumIQ"/\> to your config/localextensions.xml.
 4. Add tealiumIQ to yacceleratorstorefront by using: 
  - ant addoninstall -Daddonnames="tealiumIQ" -DaddonStorefront.yacceleratorstorefront="yacceleratorstorefront"
@@ -19,4 +19,5 @@ This is a simple setup guide to integrate the tealiumIQ addon for Hybris. To set
     3. \<tealiumIQ:tealium/\> after the \<body\> tag
  - ${HYBRIS_BIN}/custom/tealiumIQ/project.properties by changing:
    1. tealiumIQ.account, tealiumIQ.profile, and tealiumIQ.target to your tealiumIQ specific information.
-6. Recompile and restart hybris.
+    2. modify tealiumIQ.utagSyncEnabled to =1 if you want to enable utag.sync.js injection into the \<head\> 
+6. Rebuild and restart hybris.
