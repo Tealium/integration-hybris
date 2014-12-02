@@ -15,7 +15,14 @@
 # you can put key/value pairs here.
 # Use Config.getParameter(..) to retrieve the values during runtime.
 
-tealiumIQ.key=value
+# These are your tealiumIQ account specific settings
+tealiumIQ.account=tealium_acount
+tealiumIQ.profile=tealium_profile
+tealiumIQ.target=dev
+
+# Set to 0(false) or 1(true) to add utag.sync.js to the <head />
+tealiumIQ.utagSyncEnabled=0
+
 
 # Specifies the location of the spring context file added automatically to the global platform application context.
 tealiumIQ.application-context=tealiumIQ-spring.xml
