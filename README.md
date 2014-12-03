@@ -17,7 +17,7 @@ This is a simple setup guide to integrate the tealiumIQ addon for Hybris. To set
    1. \<%@ taglib prefix="tealiumIQ" tagdir="/WEB-INF/tags/addons/tealiumIQ/shared/analytics" %\> at the top of the file
     2. \<tealiumIQ:sync/\> after the \<head\> tag
     3. \<tealiumIQ:tealium/\> after the \<body\> tag
- - ${HYBRIS_BIN}/custom/tealiumIQ/project.properties by changing:
+ - ${HYBRIS_BIN}/custom/tealiumIQ/project.properties.template by changing:
    1. tealiumIQ.account, tealiumIQ.profile, and tealiumIQ.target to your tealiumIQ specific information.
     2. modify tealiumIQ.utagSyncEnabled to =1 if you want to enable utag.sync.js injection into the \<head\> 
 6. Rebuild and restart hybris.
