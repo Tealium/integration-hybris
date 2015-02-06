@@ -32,7 +32,7 @@ import org.apache.log4j.Logger;
 
 
 /**
- * Provides necessary meta information about the tealiumIQ hmc extension.
+ * Provides necessary meta information about the tealiumiq hmc extension.
  * 
  * 
  * @version ExtGen v5.2.0.0

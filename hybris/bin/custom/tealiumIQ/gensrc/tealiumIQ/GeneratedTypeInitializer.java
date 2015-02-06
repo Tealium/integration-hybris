@@ -1,6 +1,6 @@
 
 
-package tealiumIQ;
+package tealiumiq;
 
 import java.util.*;
 import java.io.Serializable;

@@ -82,9 +82,9 @@ public final class HybrisDataConverter {
 	}
 	
 	private static TealiumHelper setupTealiumHelper()  throws UDODefinitionException, UDOUpdateException{
-		String accountString = Config.getParameter("tealiumIQ.account");
-		String profileString = Config.getParameter("tealiumIQ.profile");
-		String targetString = Config.getParameter("tealiumIQ.target");;
+		String accountString = Config.getParameter("tealiumiq.account");
+		String profileString = Config.getParameter("tealiumiq.profile");
+		String targetString = Config.getParameter("tealiumiq.target");;
 		return new TealiumHelper(accountString, profileString, targetString);
 	}
 	
@@ -92,7 +92,7 @@ public final class HybrisDataConverter {
 		String scriptString = null;
 		try
 		{
-			if((Config.getParameter("tealiumIQ.utagSyncEnabled") != "0")){
+			if((Config.getParameter("tealiumiq.utagSyncEnabled") != "0")){
 				TealiumHelper helper = setupTealiumHelper();
 				scriptString = helper.outputUtagSyncJsTag();
 			}

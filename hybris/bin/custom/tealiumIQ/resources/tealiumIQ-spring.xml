@@ -19,7 +19,7 @@
            http://www.springframework.org/schema/aop
            http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-	<bean id="tealiumIQCoreDataImportedEventListener" parent="abstractCoreDataImportedEventListener">
+	<bean id="tealiumiqCoreDataImportedEventListener" parent="abstractCoreDataImportedEventListener">
 		<property name="supportedChannels">
 			<list value-type="de.hybris.platform.commerceservices.enums.SiteChannel">
 				<value>B2C</value>
@@ -31,13 +31,13 @@
 		<property name="addonExtensionMetadata">
 			<bean class=" de.hybris.platform.addonsupport.data.AddonExtensionMetadata">
 				<property name="suffixChannel" value="false"/>
-				<property name="baseExtensionName" value="tealiumIQ"/>
+				<property name="baseExtensionName" value="tealiumiq"/>
 			</bean>
 		</property>
 	</bean>
 
-	<bean id="tealiumIQSampleDataEventListener" parent="abstractGenericAddOnSampleDataEventListener"  >
-		<property name="extensionName" value="tealiumIQ" />
+	<bean id="tealiumiqSampleDataEventListener" parent="abstractGenericAddOnSampleDataEventListener"  >
+		<property name="extensionName" value="tealiumiq" />
 	</bean>
 
 </beans>

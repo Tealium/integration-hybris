@@ -6,5 +6,5 @@
 #######
 
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
-$jarResourceCmsCockpit=jar:com.tealium.addon.constants.TealiumIQConstants&/tealiumIQ/import/cockpit/cmscockpit
+$jarResourceCmsCockpit=jar:com.tealium.addon.constants.TealiumIQConstants&/tealiumiq/import/cockpit/cmscockpit
 

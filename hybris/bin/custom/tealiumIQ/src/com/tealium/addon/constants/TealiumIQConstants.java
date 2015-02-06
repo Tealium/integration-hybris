@@ -18,7 +18,7 @@ package com.tealium.addon.constants;
  */
 public final class TealiumIQConstants extends GeneratedTealiumIQConstants
 {
-	public static final String EXTENSIONNAME = "tealiumIQ";
+	public static final String EXTENSIONNAME = "tealiumiq";
 
 	private TealiumIQConstants()
 	{

@@ -17,11 +17,11 @@
                xsi:schemaLocation="hybris.de/schemas/hmc/generic hmc.xsd">
 
 
-	<!-- Configuration for extension tealiumIQ -->
+	<!-- Configuration for extension tealiumiq -->
 
 <!--
 	<explorertree>
-		<group name="tealiumIQgroup">
+		<group name="tealiumiqgroup">
 			<externalnode classname="com.tealium.addon.hmc.TealiumIQTreeLeafChip"/>		
 		</group>
 	</explorertree>

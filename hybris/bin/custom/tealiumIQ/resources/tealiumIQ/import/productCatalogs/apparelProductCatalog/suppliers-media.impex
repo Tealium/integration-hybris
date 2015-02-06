@@ -3,4 +3,4 @@ $productCatalogName=Apparel Product Catalog
 $catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
 $superCategories=superCategories(code, $catalogVersion)
 $thumbnail=thumbnail(code, $catalogVersion)
-$siteResource=jar:com.tealium.addon.constants.TealiumIQConstants&/tealiumIQ/import/productCatalogs/$productCatalog
+$siteResource=jar:com.tealium.addon.constants.TealiumIQConstants&/tealiumiq/import/productCatalogs/$productCatalog

@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[true]]></enableImports>
 	<configs>
-		<config>resources/tealiumIQ-spring.xml</config>
+		<config>resources/tealiumiq-spring.xml</config>
 	</configs>
 	<configSets>
 	</configSets>

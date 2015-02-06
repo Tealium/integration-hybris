@@ -13,7 +13,7 @@ package com.tealium.addon.constants;
 @SuppressWarnings({"unused","cast","PMD"})
 public class GeneratedTealiumIQConstants
 {
-	public static final String EXTENSIONNAME = "tealiumIQ";
+	public static final String EXTENSIONNAME = "tealiumiq";
 	
 	protected GeneratedTealiumIQConstants()
 	{

@@ -9,4 +9,4 @@ $others=others(code, $catalogVersion)
 $data_sheet=data_sheet(code, $catalogVersion)
 $medias=medias(code, $catalogVersion)
 $galleryImages=galleryImages(qualifier, $catalogVersion)
-$siteResource=jar:com.tealium.addon.constants.TealiumIQConstants&/tealiumIQ/import/productCatalogs/$productCatalog
+$siteResource=jar:com.tealium.addon.constants.TealiumIQConstants&/tealiumiq/import/productCatalogs/$productCatalog
