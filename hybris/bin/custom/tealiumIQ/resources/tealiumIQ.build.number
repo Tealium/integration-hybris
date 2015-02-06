@@ -1,0 +1,9 @@
+#Ant properties
+#Thu Jun 26 21:14:16 CEST 2014
+builddate=20140626 2114
+description=tealiumIQ
+name=tealiumIQ
+releasedate=20140523 1817
+vendor=hybris
+version=5.2.0.0
+version.api=5.2.0
