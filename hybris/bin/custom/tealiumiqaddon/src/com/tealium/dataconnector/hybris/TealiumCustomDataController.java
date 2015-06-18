@@ -2,8 +2,8 @@ package com.tealium.dataconnector.hybris;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.tealium.dataconnector.hybris.HybrisDataConverter.HybrisCustomDataConverter;
-import com.tealium.dataconnector.hybris.HybrisDataConverter.HybrisCustomPageTypeCustomData;
+import com.tealium.dataconnector.hybris.HybrisDataController.HybrisCustomDataConverter;
+import com.tealium.dataconnector.hybris.HybrisDataController.HybrisCustomPageTypeCustomData;
 import com.tealium.util.udohelpers.UDO;
 import com.tealium.util.udohelpers.exceptions.UDOUpdateException;
 
