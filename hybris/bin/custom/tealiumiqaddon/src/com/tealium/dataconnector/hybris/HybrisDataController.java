@@ -443,20 +443,20 @@ public class HybrisDataController {
 					String basePrice = ((PriceData) entry.getBasePrice())
 							.getValue().toPlainString();
 
-					List<String> categoryList = new ArrayList<String>();
-					for (CategoryData thisCategory : ((ProductData) entry
-							.getProduct()).getCategories()) {
-						categoryList.add(thisCategory.getName());
-					}
-					Object[] categoryStrings = categoryList.toArray();
-					String category = "";
-					if (categoryStrings.length > 0) {
-						category = (String) categoryStrings[0];
-					}
-					String brand = "";
-					if (categoryStrings.length >= 2) {
-						brand = (String) categoryStrings[1];
-					}
+                    List<String> categoryList = new ArrayList<String>();
+                    for (CategoryData thisCategory : ((ProductData) entry
+                                                      .getProduct()).getCategories()) {
+                        categoryList.add(thisCategory.getName());
+                    }
+                    String category = "";
+                    String brand = "";
+                    if (categoryList.size() > 0){
+                        category = categoryList.get(0);
+                    } 
+                    
+                    if (categoryList.size() > 1){
+                        brand = categoryList.get(1);
+                    }
 
 					productBrandList.add(brand);
 					productCategoryList.add(category);
