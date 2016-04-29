@@ -1,1 +1,4 @@
-[Instructions Page](http://patrickmcwilliams.github.io/hybris-integration)
+# Tealium Hybris Addon
+
+Please review documentation in /documentation folder.
+
